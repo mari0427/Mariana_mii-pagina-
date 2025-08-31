@@ -160,4 +160,27 @@ footer p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  text-decor
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+
+/* Instagram */
+.social-footer a.instagram {
+  color: #E4405F;
+}
+
+/* TikTok */
+.social-footer a.tiktok {
+  color: #010101;
+}
+
+/* WhatsApp */
+.social-footer a.whatsapp {
+  color: #25D366;
+}
+
+/* Hover */
+.social-footer a:hover {
+  transform: scale(1.2);
+  background: #f3e9fa;
+}
